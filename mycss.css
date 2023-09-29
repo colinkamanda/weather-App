@@ -102,3 +102,81 @@ main{
    font-style:inherit;
 }
 
+
+footer{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   color: grey;
+   
+}
+footer:hover{
+ 
+}
+
+footer .col{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   margin-bottom: 20px;
+}
+footer .col:hover{
+   color: #101111;
+}
+
+footer .logo{
+   margin-bottom: 30px;
+}
+
+footer h4{
+   font-size: 14px;
+   padding-bottom: 20px;
+}
+
+footer p{
+   font-size: 13px;
+   margin: 0 0 6px 0;
+}
+
+footer a{
+   font-size: 13px;
+   text-decoration: none;
+   color:white;
+   margin-bottom:10px;
+}
+
+footer .follow{
+   margin-top: 20px;
+}
+
+footer .follow i{
+   color: white;
+   padding-right: 4px;
+   cursor: pointer;
+}
+
+footer .follow i:hover,
+footer a:hover{
+   color: #088178;
+}
+
+footer .install .row img{
+   border: 1px solid #088178;
+   border-radius: 6px;
+}
+
+footer .install .row img:hover{
+   cursor: pointer;
+}
+
+footer .install img{
+   margin: 10px 0 15px 0;
+}
+
+footer .copyright{
+   width: 100%;
+   text-align: center;
+   color: #ffffff;
+  font-weight: bolder;
+}
